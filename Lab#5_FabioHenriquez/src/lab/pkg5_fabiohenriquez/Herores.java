@@ -6,7 +6,7 @@ public class Herores {
     private String nombre;
     private String poder;
     private String debilidad;
-    private Escuadron escuadron;
+    
     private String fuerza;
     private String Habilidad_Fisica;
     private String Habilidad_Mental;
@@ -18,7 +18,7 @@ public class Herores {
         this.nombre = nombre;
         this.poder = poder;
         this.debilidad = debilidad;
-        this.escuadron = escuadron;
+        
         this.fuerza = fuerza;
         this.Habilidad_Fisica = Habilidad_Fisica;
         this.Habilidad_Mental = Habilidad_Mental;
@@ -48,13 +48,7 @@ public class Herores {
         this.debilidad = debilidad;
     }
 
-    public Escuadron getEscuadron() {
-        return escuadron;
-    }
-
-    public void setEscuadron(Escuadron escuadron) {
-        this.escuadron = escuadron;
-    }
+    
 
     public String getFuerza() {
         return fuerza;
@@ -79,10 +73,12 @@ public class Herores {
     public void setHabilidad_Mental(String Habilidad_Mental) {
         this.Habilidad_Mental = Habilidad_Mental;
     }
+    
+   
 
     @Override
     public String toString() {
-        return "Herores{" + "nombre=" + nombre + ", poder=" + poder + ", debilidad=" + debilidad + ", escuadron=" + escuadron + ", fuerza=" + fuerza + ", Habilidad_Fisica=" + Habilidad_Fisica + ", Habilidad_Mental=" + Habilidad_Mental + '}';
+        return  nombre ;
     }
     
     

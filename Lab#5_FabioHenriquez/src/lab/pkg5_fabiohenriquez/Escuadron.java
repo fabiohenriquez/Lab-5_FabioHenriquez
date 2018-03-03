@@ -80,6 +80,13 @@ public class Escuadron {
     public void setMiembros(ArrayList miembros) {
         this.miembros = miembros;
     }
+    public String yo_soy(boolean tipo) {
+        if (tipo == true) {
+            return "Heroe";
+        }else{
+            return "Villano"; 
+        }
+    }
 
     @Override
     public String toString() {
